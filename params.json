@@ -121,8 +121,7 @@
       }
     }
   },
-  "name": "Titanic Demo",
-  "projectStatus": "Sandbox",
+  "name": "Titanic Demo (create-recipe)",
   "metrics": {
     "probes": [],
     "engineConfig": {
@@ -178,11 +177,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1618235579150
+    "lastModifiedOn": 1618235683296
   },
   "creationTag": {
     "versionNumber": 0,
@@ -191,8 +190,10 @@
     },
     "lastModifiedOn": 1618211628786
   },
-  "shortDesc": "The project *Titanic Demo* was created by Makoto Miyazaki on Apr 12th 2021",
-  "tags": [],
+  "shortDesc": "The project *Titanic Demo* was created by Makoto Miyazaki on Apr 12th 2021\nThe project *TITANIC_DEMO_CREATE_RECIPE* was copied from *TITANICDEMO* by Makoto Miyazaki on Apr 12th 2021",
+  "tags": [
+    "duplicated"
+  ],
   "customFields": {},
   "checklists": {
     "checklists": [
