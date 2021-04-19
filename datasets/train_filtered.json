@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1618837039239
+    "lastModifiedOn": 1618837116005
   },
   "creationTag": {
     "versionNumber": 0,
@@ -85,7 +85,56 @@
     }
   },
   "schema": {
-    "columns": [],
+    "columns": [
+      {
+        "name": "PassengerId",
+        "type": "bigint"
+      },
+      {
+        "name": "Survived",
+        "type": "bigint"
+      },
+      {
+        "name": "Pclass",
+        "type": "bigint"
+      },
+      {
+        "name": "title",
+        "type": "string"
+      },
+      {
+        "name": "Sex",
+        "type": "string"
+      },
+      {
+        "name": "Age",
+        "type": "double"
+      },
+      {
+        "name": "SibSp",
+        "type": "bigint"
+      },
+      {
+        "name": "Parch",
+        "type": "bigint"
+      },
+      {
+        "name": "Ticket",
+        "type": "string"
+      },
+      {
+        "name": "Fare",
+        "type": "double"
+      },
+      {
+        "name": "Cabin",
+        "type": "string"
+      },
+      {
+        "name": "Embarked",
+        "type": "string"
+      }
+    ],
     "userModified": true
   },
   "dkuProperties": [],
