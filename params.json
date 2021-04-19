@@ -127,7 +127,8 @@
       }
     }
   },
-  "name": "Titanic Demo (grow-flow)",
+  "name": "Titanic Demo",
+  "projectStatus": "Sandbox",
   "metrics": {
     "probes": [],
     "engineConfig": {
@@ -183,11 +184,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 7,
+    "versionNumber": 8,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1618842514695
+    "lastModifiedOn": 1618842751167
   },
   "creationTag": {
     "versionNumber": 0,
@@ -196,10 +197,8 @@
     },
     "lastModifiedOn": 1618211628786
   },
-  "shortDesc": "The project *Titanic Demo* was created by Makoto Miyazaki on Apr 12th 2021\nThe project *TITANIC_DEMO_GROW_FLOW* was copied from *TITANICDEMO* by Makoto Miyazaki on Apr 19th 2021",
-  "tags": [
-    "duplicated"
-  ],
+  "shortDesc": "The project *Titanic Demo* was created by Makoto Miyazaki on Apr 12th 2021",
+  "tags": [],
   "customFields": {},
   "checklists": {
     "checklists": [
