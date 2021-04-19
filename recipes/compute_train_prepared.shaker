@@ -26,7 +26,10 @@
     "autoRefreshSample": false
   },
   "explorationFilters": [],
-  "exploreUIParams": {},
+  "origin": "PREPARE_RECIPE",
+  "exploreUIParams": {
+    "autoRefresh": true
+  },
   "steps": [],
   "maxProcessedMemTableBytes": -1,
   "previewMode": "ALL_ROWS",
@@ -35,7 +38,20 @@
     "autoRefreshSample": false
   },
   "analysisColumnData": {},
-  "columnWidthsByName": {},
+  "columnWidthsByName": {
+    "Embarked": 100,
+    "Survived": 100,
+    "Pclass": 100,
+    "Ticket": 100,
+    "PassengerId": 100,
+    "Parch": 100,
+    "Cabin": 100,
+    "Sex": 100,
+    "SibSp": 100,
+    "Age": 100,
+    "Name": 300,
+    "Fare": 100
+  },
   "sorting": [],
   "globalSearchQuery": "",
   "coloring": {
