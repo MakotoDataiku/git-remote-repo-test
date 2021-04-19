@@ -3,37 +3,40 @@
   "centileSplits": [
     {
       "outputIndex": 0,
-      "share": 50.0
+      "share": 50
     }
   ],
-  "defaultOutputIndex": 1,
   "preFilter": {
     "distinct": false,
     "enabled": false
   },
+  "defaultOutputIndex": 1,
   "seed": 1337,
   "randomColumns": [],
   "centileOrders": [],
   "rangeSetTime": false,
+  "column": "Sex",
   "randomSplits": [
     {
       "outputIndex": 0,
-      "share": 50.0
+      "share": 50
     }
   ],
   "randomColumnsSplits": [
     {
       "outputIndex": 0,
-      "share": 50.0
+      "share": 50
     }
   ],
   "computedColumns": [],
   "writeComputedColumnsInOutput": false,
+  "mode": "VALUES",
   "centileTDigest": false,
   "valueSplits": [
     {
       "outputIndex": 0,
-      "caseSensitive": false
+      "caseSensitive": false,
+      "value": "male"
     }
   ],
   "rangeSplits": [
@@ -89,6 +92,56 @@
         "uiData": {
           "mode": "\u0026\u0026",
           "conditions": []
+        },
+        "$status": {
+          "schema": {
+            "columns": [
+              {
+                "name": "PassengerId",
+                "type": "string"
+              },
+              {
+                "name": "Pclass",
+                "type": "string"
+              },
+              {
+                "name": "Name",
+                "type": "string"
+              },
+              {
+                "name": "Sex",
+                "type": "string"
+              },
+              {
+                "name": "Age",
+                "type": "string"
+              },
+              {
+                "name": "SibSp",
+                "type": "string"
+              },
+              {
+                "name": "Parch",
+                "type": "string"
+              },
+              {
+                "name": "Ticket",
+                "type": "string"
+              },
+              {
+                "name": "Fare",
+                "type": "string"
+              },
+              {
+                "name": "Cabin",
+                "type": "string"
+              },
+              {
+                "name": "Embarked",
+                "type": "string"
+              }
+            ]
+          }
         },
         "distinct": false,
         "enabled": true
