@@ -8,12 +8,7 @@
       {
         "type": "DATASET",
         "localName": "train",
-        "rules": [
-          {
-            "targetProject": "RUN_compute_train_filtered_PHTGwYRs",
-            "appearOnFlow": true
-          }
-        ]
+        "rules": []
       }
     ]
   },
@@ -189,11 +184,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 4,
+    "versionNumber": 5,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1618837064057
+    "lastModifiedOn": 1618837122154
   },
   "creationTag": {
     "versionNumber": 0,
