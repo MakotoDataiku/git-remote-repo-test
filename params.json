@@ -128,7 +128,6 @@
     }
   },
   "name": "Titanic Demo",
-  "projectStatus": "Sandbox",
   "metrics": {
     "probes": [],
     "engineConfig": {
@@ -184,11 +183,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 5,
+    "versionNumber": 6,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1618837122154
+    "lastModifiedOn": 1618842512000
   },
   "creationTag": {
     "versionNumber": 0,
@@ -198,7 +197,9 @@
     "lastModifiedOn": 1618211628786
   },
   "shortDesc": "The project *Titanic Demo* was created by Makoto Miyazaki on Apr 12th 2021",
-  "tags": [],
+  "tags": [
+    "duplicated"
+  ],
   "customFields": {},
   "checklists": {
     "checklists": [
