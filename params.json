@@ -4,7 +4,13 @@
     "authorizations": []
   },
   "exposedObjects": {
-    "objects": []
+    "objects": [
+      {
+        "type": "DATASET",
+        "localName": "train",
+        "rules": []
+      }
+    ]
   },
   "projectType": "REGULAR",
   "projectAppType": "REGULAR",
@@ -121,7 +127,7 @@
       }
     }
   },
-  "name": "Titanic Demo (create-recipe)",
+  "name": "Titanic Demo (grow-flow)",
   "metrics": {
     "probes": [],
     "engineConfig": {
@@ -177,11 +183,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 2,
+    "versionNumber": 7,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1618235683296
+    "lastModifiedOn": 1618842514695
   },
   "creationTag": {
     "versionNumber": 0,
@@ -190,7 +196,7 @@
     },
     "lastModifiedOn": 1618211628786
   },
-  "shortDesc": "The project *Titanic Demo* was created by Makoto Miyazaki on Apr 12th 2021\nThe project *TITANIC_DEMO_CREATE_RECIPE* was copied from *TITANICDEMO* by Makoto Miyazaki on Apr 12th 2021",
+  "shortDesc": "The project *Titanic Demo* was created by Makoto Miyazaki on Apr 12th 2021\nThe project *TITANIC_DEMO_GROW_FLOW* was copied from *TITANICDEMO* by Makoto Miyazaki on Apr 19th 2021",
   "tags": [
     "duplicated"
   ],

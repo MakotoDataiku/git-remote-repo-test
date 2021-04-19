@@ -59,23 +59,23 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 0,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1618235713222
+    "lastModifiedOn": 1618833282401
   },
   "creationTag": {
     "versionNumber": 0,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1618235713216
+    "lastModifiedOn": 1618833282401
   },
   "tags": [],
   "params": {
     "connection": "filesystem_managed",
-    "path": "${projectKey}/train_copy",
+    "path": "${projectKey}/test_scored",
     "notReadyIfEmpty": false,
     "filesSelectionRules": {
       "mode": "ALL",
@@ -88,15 +88,11 @@
     "columns": [
       {
         "name": "PassengerId",
-        "type": "string"
-      },
-      {
-        "name": "Survived",
-        "type": "string"
+        "type": "bigint"
       },
       {
         "name": "Pclass",
-        "type": "string"
+        "type": "bigint"
       },
       {
         "name": "Name",
@@ -108,15 +104,15 @@
       },
       {
         "name": "Age",
-        "type": "string"
+        "type": "double"
       },
       {
         "name": "SibSp",
-        "type": "string"
+        "type": "bigint"
       },
       {
         "name": "Parch",
-        "type": "string"
+        "type": "bigint"
       },
       {
         "name": "Ticket",
@@ -124,7 +120,7 @@
       },
       {
         "name": "Fare",
-        "type": "string"
+        "type": "double"
       },
       {
         "name": "Cabin",
@@ -132,6 +128,18 @@
       },
       {
         "name": "Embarked",
+        "type": "string"
+      },
+      {
+        "name": "proba_0",
+        "type": "double"
+      },
+      {
+        "name": "proba_1",
+        "type": "double"
+      },
+      {
+        "name": "prediction",
         "type": "string"
       }
     ],
